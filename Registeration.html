@@ -1,0 +1,87 @@
+<html>
+
+<body bgcolor="cyan">
+    <center>
+        <h3>Employee Registeration</h3>
+        <table border="1">
+            <form method="post">
+                <tr>
+                    <th>Employee id:</th>
+                    <td><input type=text id="EMPID" name="txtId"></td>
+                </tr>
+                <tr>
+                    <th>Employee Name:</th>
+                    <td><input type=text id="EMPNAME" name="txtNAME"></td>
+                </tr>
+                <tr>
+                    <th>Paswword:</th>
+                    <td><input type=password maxlength="9" id="PASSNAME" name="txtPASS"></td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td><textarea rows="5" cols="21" id="EMPADD" name="txtADD"></textarea></td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td>
+                        Male:<input type="radio" name="rd1" value="MALE" checked>
+
+                        Female:<input type="radio" name="rd1" value="FEMALE"></td>
+                </tr>
+                <tr>
+                    <th>
+                        City:
+                    </th>
+                    <td>
+                        <select name="txtCity" id="EMPCITY">
+                            <option>Pune</option>
+                            <option>Pondi</option>
+                            <option>Banglore</option>
+                            <option>Punjab</option>
+                            <option>Nagpur</option>
+                            <option>Mumbai</option>
+                            <option>Delhi</option>
+                            <option>Goa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Qualification:</th>
+                    <td>
+                        Diploma:<input type="checkbox" name="chk1" value="Diploma" checked>
+
+                        UG:<input type="checkbox" name="chk2" value="UnderGraduate">
+                        PG:<input type="checkbox" name="chk2" value="PostGraduate"></td>
+                </tr>
+                <tr>
+                    <th>DOB:</th>
+                    <td><input type="date" name="txtDOB"
+                    id="EMPDOB"></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td><input type="email" name="txtemail"
+                    id="EMPEMAIL"></td>
+                </tr>
+                <tr>
+                    <th>Upload:</th>
+                    <td><input type="file" name="txtfile"
+                    id="EMPFILE"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </td>
+                </tr>
+
+
+
+
+            </form>
+        </table>
+    </center>
+</body>
+
+</html>
